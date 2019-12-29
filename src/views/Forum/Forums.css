@@ -1,0 +1,10 @@
+.topicDropdown > .btn-primary {
+    margin: 10px;
+    border-color: #6B52C4;
+    color: #6B52C4;
+    border-radius: 50px;
+    background-color: white;
+    width: 20%;
+    font-size: 12px
+}
+

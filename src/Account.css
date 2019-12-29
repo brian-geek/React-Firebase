@@ -1,0 +1,168 @@
+.splite {
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+}
+
+.left {
+    left: 0;
+    width: 50%;
+    background-color: #6B52C4;
+}
+
+.main {
+    right: 0;
+    width: 50%;
+    padding: 10%;
+    overflow: auto;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+}
+
+.rightIcon {
+    position: absolute;
+    top: 50%;
+    right: 10%
+}
+
+.appname {
+    font-size: 35px;
+    font-weight: bold;
+    margin: 5px;
+    color: white;
+    font-family: 'Avenir Next';
+}
+
+.customer {
+    margin: 5px;
+    text-align: right;
+    color: white;
+    font-family: 'Avenir Next';
+}
+
+@media screen and (max-width: 600px) {
+    .left {
+      width: 0;
+    }
+    .main {
+        width: 100%
+    }
+}
+
+.formgroup {
+    margin-top: 30px;
+    font-size: 12px;
+    color: #707070;
+    font-family: 'Avenir Next';
+}
+
+.inline {
+    display: inline-block;
+}
+
+.linkbtn {
+    padding: 0;
+    vertical-align: baseline;
+    color: #6B52C4;
+    font-family: 'Avenir Next';
+    font-size: 12px;
+}
+
+.lgbtn {
+    background: #6B52C4;
+    border-color: #6B52C4;
+    border-radius: 50px;
+    width: 30%;
+    font-size: 12px
+}
+
+.forminput {
+    background: #F2F2F2;
+    border-radius: 12px;
+    padding: 12px;
+    border-color: #F2F2F2;
+    font-size: 12px;
+    color: #707070;
+    height: 50px;
+    font-family: 'Avenir Next';
+}
+
+.tooltip {
+    color: #6B52C4;
+}
+
+.signalert {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%
+}
+
+.title {
+    color: #6B52C4;
+    font-size: 12px;
+    text-align: center;
+    font-weight: 600;
+    font-family: 'Avenir Next';
+}
+
+.subtitle {
+    color: #707070;
+    font-size: 12px;
+    text-align: center;
+    font-weight: 500;
+    font-family: 'Avenir Next';
+}
+
+.signtab {
+    font-size: 12px;
+    font-family: 'Avenir Next';
+}
+
+.signtab > .nav-item, .nav-link {
+    color: #6B52C4
+}
+
+.required {
+    color: red
+}
+
+.highlight {
+    color: black
+}
+
+.FaChevronRight {
+    color: white;
+    cursor: pointer
+}
+
+.portalDropdownButton > .btn-primary {
+    background-color: #6B52C4;
+    border-color: #6B52C4;
+    border-radius: 50px;
+    width: 30%;
+    font-size: 12px
+}
+
+.preferenceDropdownButton > .btn-primary {
+    border-color: #6B52C4;
+    color: #6B52C4;
+    border-radius: 50px;
+    background-color: white;
+    width: 50%;
+    font-size: 12px
+}
+
+.portalitem {
+    font-size: 12px
+}
+
+.slider {
+    border: '2px solid #6B52C4'
+}
